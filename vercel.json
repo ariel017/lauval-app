@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "build": [
+        {
+            "src": "./dist/index.js",
+            "use": "@verce/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+}
